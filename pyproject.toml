@@ -1,7 +1,16 @@
 [project]
 name = "meanplan-hk"
 version = "0.1.0"
-description = "Add your description here"
+description = "Bosch canteen weekly menu PDF parser — generates .md and .json from Speiseplan PDF"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pymupdf>=1.27",
+    "pdfplumber>=0.11",
+]
+
+[project.scripts]
+parse-menu = "meanplan_hk.main:main"
+    "pdfplumber>=0.11.9",
+    "pymupdf>=1.27.2.3",
+]

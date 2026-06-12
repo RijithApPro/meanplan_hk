@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+grid_dump.txt
+main.py
+mealplan_mcp.py
+menu_week.json
+menu_week.md
+parser.py
+pyproject.toml
+words_dump.txt
